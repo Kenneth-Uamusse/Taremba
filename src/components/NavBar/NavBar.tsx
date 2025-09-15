@@ -77,6 +77,7 @@ const NavBar = () => {
             <a
               href="#contactUs"
               className="flex items-center justify-center gap-1.5 py-3.5 bg-[var(--main-color)] w-full"
+              title="contact-us link"
               onClick={() => setShowMobileMenu(false)}
             >
               <Image
